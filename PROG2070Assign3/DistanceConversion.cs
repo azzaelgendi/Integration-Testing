@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Integration testing
+ * Prog2070
+ * Revision History
+ * Azza Elgendy
+ * Created March 16,2019
+ * Distance Conversion Class
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -71,7 +79,10 @@ namespace PROG2070Assign3
                     input = "rods";
                     break;
                 default:
-                    throw new ArgumentException("Incorrect unit");
+                    throw new ArgumentException
+                    (String.Format("{0} Incorrect unit", input),
+                                      "input");
+
             }
             return input;
         }
@@ -121,7 +132,7 @@ namespace PROG2070Assign3
             }
             else if (convertFrom == "meters" && convertTo == "rods")
             {
-                result = 1 / 5.0292100584201;
+                result = 0.198838782;
             }
             else if (convertFrom == "rods" && convertTo == "feet")
             {
