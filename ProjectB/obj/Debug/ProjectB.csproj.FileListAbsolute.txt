@@ -1,0 +1,7 @@
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign3\Integration-Testing\ProjectB\bin\Debug\ProjectB.exe.config
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign3\Integration-Testing\ProjectB\bin\Debug\ProjectB.exe
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign3\Integration-Testing\ProjectB\bin\Debug\ProjectB.pdb
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign3\Integration-Testing\ProjectB\obj\Debug\ProjectB.csprojAssemblyReference.cache
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign3\Integration-Testing\ProjectB\obj\Debug\ProjectB.csproj.CoreCompileInputs.cache
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign3\Integration-Testing\ProjectB\obj\Debug\ProjectB.exe
+C:\Users\AZZA ELGENDY\Desktop\PROG2070Assign3\Integration-Testing\ProjectB\obj\Debug\ProjectB.pdb

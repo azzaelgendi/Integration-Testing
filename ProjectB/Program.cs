@@ -1,20 +1,10 @@
-﻿/*
- * Integration testing
- * Prog2070 Assign3
- * Revision History
- * Azza Elgendy
- * Created March 16,2019
- * 
- */
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/// <summary>
-/// Program to convert value to other unit
-/// </summary>
-namespace PROG2070Assign3
+
+namespace ProjectB
 {
     class Program
     {
@@ -22,7 +12,7 @@ namespace PROG2070Assign3
         {
             //Program Variables
             string output = "";
-            double  input = 0;
+            double input = 0;
             string fromUnit = "";
             string toUnit = "";
             bool exit = false;
@@ -62,20 +52,20 @@ namespace PROG2070Assign3
                             catch (Exception)
                             {
 
-                                Console.WriteLine("Your input wasnot in the correct format "+
+                                Console.WriteLine("Your input wasnot in the correct format " +
                                     "Please enter a valid value");
                             }
-                                Console.WriteLine("Please Enter the unit to convert");
-                                fromUnit = Console.ReadLine();
-                                Console.WriteLine("Please Enter desired convert to unit");
-                                toUnit = Console.ReadLine();
+                            Console.WriteLine("Please Enter the unit to convert");
+                            fromUnit = Console.ReadLine();
+                            Console.WriteLine("Please Enter desired convert to unit");
+                            toUnit = Console.ReadLine();
                             try
                             {
                                 DistanceConversion.Convert(input, fromUnit, toUnit);
                             }
                             catch (ArgumentException ex)
                             {
-                                Console.WriteLine( ex.Message);
+                                Console.WriteLine(ex.Message);
                                 break;
                             }
                             //convert the input
@@ -94,8 +84,7 @@ namespace PROG2070Assign3
                 {
                     Console.WriteLine("Please Type  1 or 2 and press enter");
                 }
-            } while (exit==false);
-
+            } while (exit == false);
         }
     }
 }

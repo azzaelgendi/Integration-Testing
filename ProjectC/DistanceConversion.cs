@@ -1,4 +1,5 @@
 ﻿/*
+ * Project C
  * Integration testing
  * Prog2070
  * Revision History
@@ -12,7 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PROG2070Assign3
+namespace ProjectC
 {
     public static class DistanceConversion
     {
